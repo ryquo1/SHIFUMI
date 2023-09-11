@@ -56,32 +56,32 @@ function result() {
     if (resultat == res) {
         console.log(resultat);
         console.log(res);
-        document.getElementById("resultat").textContent = "Résultat : Égalité :O";
+        document.getElementById("resultat").textContent = "Égalité :O";
     }
     else if (res == "pierre") {
         if (resultat == "ciseau") {
-            document.getElementById("resultat").textContent = "Résultat : Victoire :D";
+            document.getElementById("resultat").textContent = "Victoire :D";
         }
         else {
-            document.getElementById("resultat").textContent = "Résultat : Défaite :(";
+            document.getElementById("resultat").textContent = "Défaite :(";
         }
     }
 
     else if (res == "ciseau") {
         if (resultat == "feuille") {
-            document.getElementById("resultat").textContent = "Résultat : Victoire :D";
+            document.getElementById("resultat").textContent = "Victoire :D";
         }
         else {
-            document.getElementById("resultat").textContent = "Résultat : Défaite :(";
+            document.getElementById("resultat").textContent = "Défaite :(";
         }
     }
 
     else if (res == "feuille") {
         if (resultat == "pierre") {
-            document.getElementById("resultat").textContent = "Résultat : Victoire :D";
+            document.getElementById("resultat").textContent = "Victoire :D";
         }
         else {
-            document.getElementById("resultat").textContent = "Résultat : Défaite :(";
+            document.getElementById("resultat").textContent = "Défaite :(";
         }
     }
 }

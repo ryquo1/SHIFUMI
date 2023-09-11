@@ -5,7 +5,7 @@ h1 {
 
 #sous_box {
     position: fixed;
-    bottom: 175px;
+    bottom: 10px;
 }
 
 .box {
@@ -22,38 +22,57 @@ h1 {
 }
 
 #res {
+    font-size: 32px;
+    color: white;
     position: fixed;
-    top: 26%;
+    top: 18%;
     padding: 50px;
-    border: solid yellowgreen 3px;
+    background-color: transparent;
 }
 
-h1 {
+#bande {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    top: 40px;
 }
 
 #Pokepierre {
-    width: 100%;
-    height: 100%;
+    width: 236px;
+    height: 428px;
 }
 
 #GwenScissors {
-    width: 250px;
-    height: 188px;
+    width: 236px;
+    height: 428px;
 
 }
 
 #Paper {
-    width: 250px;
-    height: 188px;
+    width: 236px;
+    height: 428px;
 
 }
 
 button {
     font-size: 100%;
     border-style: none;
-    background-color: white;
+    background-color: transparent;
+    box-shadow: 10px 5px 5px black;
+    padding: 0%;
+    margin: 7px;
+}
+
+html{
+    background-image: url("../images/table.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
 }
