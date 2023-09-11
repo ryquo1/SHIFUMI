@@ -5,10 +5,22 @@ h1 {
 
 #sous_box {
     position: fixed;
-    bottom: 10px;
+    bottom: -214px;
+}
+
+#sous_box2 {
+    position: fixed;
+    top: -214px;
+    transform: rotate(180deg);
 }
 
 .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,21 +34,14 @@ h1 {
 }
 
 #res {
-    font-size: 32px;
+    font-size: 64px;
     color: white;
     position: fixed;
-    top: 18%;
+    top: 33%;
     padding: 50px;
     background-color: transparent;
 }
 
-#bande {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    top: 40px;
-}
 
 #Pokepierre {
     width: 236px;
@@ -65,6 +70,8 @@ button {
 }
 
 html{
+    margin: 0;
+    padding: 0;
     background-image: url("../images/table.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -72,7 +79,35 @@ html{
     background-position: bottom;
 }
 
-footer{
-    position: fixed;
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+#joueur{
+    color: white;
+    font-size: 32px;
+    background-color:#303030;
+    padding: 50px;
+    margin: 0px;
     bottom: 0px;
+
+}
+
+
+#bot{
+    color: white;
+    font-size: 32px;
+    background-color:#303030;
+    padding: 50px;
+    margin: 0px;
+    top: 0px;
+}
+
+footer {
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    right: 0
 }
