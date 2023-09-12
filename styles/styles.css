@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 p,
 h1 {
     font-family: Arial, Helvetica, sans-serif;
@@ -20,12 +25,6 @@ h1 {
     justify-content: center;
 }
 
-.box2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .resultat {
     display: flex;
     flex-direction: column;
@@ -43,21 +42,13 @@ h1 {
 }
 
 
-#Pokepierre {
+#Pokepierre, #GwenScissors, #Paper  {
+    align-self: flex-end;
     width: 236px;
     height: 428px;
-}
-
-#GwenScissors {
-    width: 236px;
-    height: 428px;
-
-}
-
-#Paper {
-    width: 236px;
-    height: 428px;
-
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    transform-origin: bottom;
 }
 
 button {
@@ -70,8 +61,6 @@ button {
 }
 
 html{
-    margin: 0;
-    padding: 0;
     background-image: url("../images/table.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -79,13 +68,8 @@ html{
     background-position: bottom;
 }
 
-body{
-    margin: 0;
-    padding: 0;
-}
 
-
-#joueur{
+#joueur, #bot{
     color: white;
     font-size: 32px;
     background-color:#303030;
@@ -95,19 +79,19 @@ body{
 
 }
 
-
-#bot{
-    color: white;
-    font-size: 32px;
-    background-color:#303030;
-    padding: 50px;
-    margin: 0px;
-    top: 0px;
-}
-
 footer {
     position: absolute; 
     bottom: 0; 
     left: 0; 
-    right: 0
+    right: 0;
+}
+
+.bounce:hover {
+    animation-name: bounce;
+    animation-timing-function: ease;
+    transform: translateY(-50px);
+}
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  100%  { transform: translateY(-50px); }
 }
