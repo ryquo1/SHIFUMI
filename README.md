@@ -17,7 +17,7 @@ Un simple jeu de pierre-papier-ciseaux implémenté en JavaScript, HTML et CSS.
 
 ## Comment contribuer
 
-1. Clonez le dépôt : `git clone [https://github.com/votre-utilisateur/shifumi-js.git](https://github.com/ryquo1/SHIFUMI.git)`
+1. Clonez le dépôt : `git clone (https://github.com/ryquo1/SHIFUMI.git)`
 2. Créez votre branche de fonctionnalité : `git checkout -b ma-nouvelle-fonctionnalite`
 3. Faites vos modifications et committez-les : `git commit -m "Ajout de ma nouvelle fonctionnalité"`
 4. Poussez vos modifications sur GitHub : `git push origin ma-nouvelle-fonctionnalite`
